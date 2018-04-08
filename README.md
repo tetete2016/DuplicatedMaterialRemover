@@ -14,4 +14,5 @@ The materials that are not assigned to meshs will be removed by reloading the fi
 
 ## limitation
 **This script misbeahaves if "." is included in the names of materials.**
-This script combines materials if the names are the same.
+Also,this script combines materials if the names are the same:
+as we see in the source, the script compare the name of the materials not the materials themselves.
